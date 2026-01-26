@@ -2,7 +2,6 @@ import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import TaxCalculatorPage from '../pages/calculator/TaxCalculatorPage';
 import { useAppStore } from '../store';
-import React from 'react';
 
 // Mock matchMedia for Ant Design components
 Object.defineProperty(window, 'matchMedia', {
